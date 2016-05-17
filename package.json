@@ -23,7 +23,6 @@
     "upgrade": "npm update",
     "lint":"gulp lint",
     "test":"gulp test",
-    "build": "gulp build",
     "precommit": "npm test",
     "patch": "mversion patch -mn",
     "minor": "mversion minor -mn",
