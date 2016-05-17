@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var eslint = require('gulp-eslint');
 
-gulp.task('lint', ['clean'], function () {
+gulp.task('lint', function () {
   var sources = [
     'src/**/*.js',
     'test/**/*.js'
